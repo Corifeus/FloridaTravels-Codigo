@@ -1,0 +1,116 @@
+body *{
+	margin-top: 5px;
+	font-family: sans-serif;
+}
+
+
+/* cabecera omún en todas las páginas */
+
+header{
+	text-align: center;
+}
+
+#logotipo{
+	margin: 0 auto;
+}
+
+
+/* Tamaño de las imágenes para cambiar de idioma y alineamiento de ellas a la derecha */
+
+.botonidiomas{
+	width: 25px;
+	height: 25px;
+}
+
+.idiomas{
+	float: right;
+	display: inline;
+}
+
+/* Fin cabecera */
+
+
+
+/* Mensaje usado en la página inicial y la de información */
+
+#mensajeInicio{
+	color: white;
+	background-color: #1AC8ED;
+}
+
+
+/* Formulario de contacto en información */
+
+#contacto{
+	background-color: #1AC8ED;
+	border: 1px solid #235789;
+	float: right;
+	padding:5px;
+}
+
+
+/* Estilo del footer,común en todas las páginas */
+
+footer{
+	text-align: center;
+	margin-top: 25px;
+	border-top: 2px solid #235789;
+	background-color: #235789;
+	color: white;
+	padding: 5px;
+}
+
+/* Usaremos un enlace por línea para usar la propiedad de Gestalt */
+
+footer a{
+	display: block;
+	color: white;
+}
+
+.seccionFooter{
+	font-size:18px;
+}
+
+/* Cambiamos el color a los enlaces para que se vean mejor gracias al contraste*/
+footer a:hover{
+	color:grey;
+}
+
+
+/* Estilo de las imagenes de la seccion inspiraciones*/
+
+.inspiracion{
+	height: 300px;
+	width: 100%;
+}
+
+.seccionInspiracion{
+	text-align: center;
+}
+
+/* Como américa es el doble de alto, le damos el doble de altura que los otros continentes */
+#america{
+	height: 400px;
+}
+
+/* Altura del resto de continentes */
+.continente{
+	height: 200px;
+}
+
+/* Tamaño de la imagen de un viaje en cocreto */
+.viaje{
+	height: 500px;
+}
+
+/* Información extra de un viaje, como la gastronomía o la cultura */
+.extraviaje{
+	background-color: #1AC8ED;
+	border: 1px solid #235789;
+	color: white;
+}
+
+/* Texto con la información de un viaje */
+.infoViaje{
+	margin-top: 15px;
+}
